@@ -1,0 +1,1 @@
+[print(len([i for i in input().split('0') if i != ''])) for i in range(int(input()))]

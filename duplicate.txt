@@ -1,0 +1,127 @@
+title
+
+What is true about assigning approval requests to queues?
+
+Star Enterprises would like their Salesforce instance to be configured so that any account record which has the 'Type' field set to 'Internal' is visible to all users. The OWD setting for the account object is set to Private. The associated contracts and opportunities also need to be visible to everyone. How many sharing rules would be needed for this requirement?
+
+When creating a Lightning page in App Builder, which type of page requires an object to be selected?
+
+After a review, it was decided that custom objects A and B need to be in a master-detail relationship instead of the current lookup relationship. A is the proposed master. Which of these items would you investigate before making the change?
+
+How can an approval request be triggered?
+
+Global Containers would like to examine sales by country with a sub-total at country level in a report. Which format should be used for the report?
+
+Certain employees at Universal Containers are members of a public Chatter group that focuses on Widgets. One group member is traveling with only a smartphone. During his trip, he wants to be immediately alerted whenever anyone @mentions the Widgets group. What should he do?
+
+Different kinds of resources need to be assigned to several departments in an organization. The resource types are laptops, tablets, and phones. Although the different types of resources share common fields such as serial number and purchase date, they also have fields that are unique to each type. In which ways can the requirement be appropriately implemented in Salesforce?
+
+Which of the following components will be renamed if a naming conflict occurs when installing an unmanaged package?
+
+There is a requirement to show only the accounts that the current user owns in the Account lookup field of the Opportunity detail page. What feature is used to implement this customization?
+
+When using Change Sets, which one of the following can NOT be transferred from one Salesforce Org to another?
+
+Sam, a Salesforce developer, is trying to limit the visibility of contact records using the org wide default setting of Private. While testing, he is still able to see all contact records. What could be a reason?
+
+While designing a custom application in Salesforce, the Salesforce Administrator is reviewing the data types that would be suitable for the fields. Which standard field types are available for custom fields?
+
+Which of the following sequences of milestones would represent a typical application lifecycle?
+
+"In what order does Salesforce process the following rules? 1. Assignment rules 2. Auto-response rules 3. Escalaltion rules 4. Validation rules 5. Workflow rules"
+
+Which of the following are standard capabilities of the Lead object?
+
+Global Containers is using Salesforce to manage travel requests. The company would like to allow managers to approve travel requests via email. What is true regarding email approval responses?
+
+You have been given a partial copy Sandbox that has 5 GB of data storage. You are aware that your production data adds up to 68 GB of data. Keeping the storage limitation in mind, how do you ensure that only the data relevant for testing is brought into the Partial Copy Sandbox?
+
+A Salesforce Administrator has defined a custom object named Shipment that has a lookup relationship with another custom object named Service Level. Only users with a Manager role are allowed to select the Expedited value in the Service Level lookup field on a Shipment record. What is the best option to meet this requirement?
+
+Global Systems has a 'Net Worth' field on the Account object to capture the value of a customer's total assets minus the liabilities. However, only executive users should be able to view the data in this field. How would Global Systems achieve this requirement?
+
+Cosmic Shipping wants to make sure that their field agents can update shipment information when they are out of the office. What does a Salesforce Administrator need to do to ensure that shipment records can be updated from the Salesforce mobile app?
+
+An app builder is building a recruitment management application. The application requires the ability to hold details regarding job positions, candidates, and their applications to one or more job positions. Which of the following represents the best data model to achieve this requirement?
+
+The Account object has more than 100 custom fields created to store customer related data. There have been complaints regarding the usability of this object. A Salesforce developer decided to have a third column on the record detail page to reduce the need to scroll down the page. How can a third column be created in its page layout?
+
+A custom object called 'Sample' has a master-detail relationship with the Opportunity object. One opportunity can have many related samples. Each sample has fields for Start Date, Estimated End Date, and Actual End Date. How would a developer meet a requirement to provide a count of all related samples which are still active, i.e., the 'Actual End Date' has not been entered?
+
+There is a requirement that when an opportunity is closed, commission records should be created automatically for each member of the opportunity team. The Commission custom object has a numeric field wherein its value is calculated based on the role of the member, time to close the deal, and type and value of the opportunity. How could this be achieved?
+
+In the Salesforce mobile app, which of the following corresponds to the tabs in the desktop version of a Lightning app?
+
+You have a customer who would like to see a red flag appear on the case record detail page if the case is older than 10 days. Which of the following should be used to add this red flag image on the case detail page?
+
+What is true regarding editing feed posts and comments?
+
+Which of the following provides an interactive environment for viewing, creating and modifying objects, fields, and relationships in Salesforce?
+
+Two custom objects, A and B, are in a parent-child relationship. A record of object B cannot exist without a related record of object A. When a record of custom object A is deleted, all associated custom object B records are also deleted. Based on the given information, which of the following statements is true?
+
+There is a requirement that when the \'Audit\' field on an Account record is marked as \'Y\', all audit team members should get access to it. An audit team is a collection of senior users from each department. How would you address this requirement?
+
+Global Containers has a requirement to conduct a daily data backup. Which of the following is most suitable for achieving the task?
+
+A developer of Cosmic Solutions is building a project management application. According to the design, the application needs to be used to store information about projects and functional modules. Each project can have multiple functional modules related to it. Furthermore, each functional module must also store information regarding the responsibility assigned to each person working on the module. Each responsibility must contain information such as due date and status. Which of the following represents the most optimal data model for this requirement?
+
+Global Containers is doing a deep analysis of their sales data and would like to examine the sales of individual products sold per country by salesperson. What would be the ideal report format to address this requirement?
+
+Global Insurance will use Salesforce to collect lead information from different sources. The information collected about a lead will vary greatly depending on if the lead is interested in life insurance or business insurance. Which of the following Salesforce features can be configured for this requirement?
+
+One workflow rule has been defined that sets the value of an 'Is Active' checkbox field to true when the value of a 'Subscription' picklist field is set to 'Active'. A second workflow rule has been defined that updates the value of 'Subscription' to 'Active' when 'Is Active' is set to true. The option 'Re-evaluate Workflow Rules After Field Change' is enabled for the field update actions. What happens when the value of the Subscription field is 'Pending' and then 'Is Active' is set to true by a user?
+
+If a workflow email alert should be sent when an opportunity probability is updated to be greater than 75%, what should the evaluation criteria be?
+
+‘Stock Symbol’ is a custom field on the Account object. What is the best way to make this field appear on the Contact page layout?
+
+What is true regarding feed posts and comments
+
+The customer service department of Cosmic Solutions does not have access to Opportunities. Due to a new cross-selling initiative, access to the Opportunity object needs to be provided to allow customer service representatives to create and edit opportunities. Which of the following can be configured for this requirement?
+
+Worldwide Containers is planning a production release. Which steps would be part of the deployment plan?
+
+What operations can be performed directly through the graphical user interface of Data Loader?
+
+What is true regarding person accounts in Salesforce?
+
+Dan is considering a requirement to validate the "Source Country" custom field of the Order object against a list of ISO codes to ensure that the field value is allowed for a particular type of order when saving the record. The ISO codes are individual records stored in the org. What is the most suitable option for this requirement?
+
+A Salesforce organization uses a custom object to capture expense data. One of their requirements is to ensure that an expense record is only visible to the respective record owners and those above them in the organization hierarchy. Which of these Salesforce features can be configured to meet this requirement?
+
+Custom tabs allow custom object data or other web content to be displayed in Salesforce. What kind of custom tabs can be created in Lightning Experience?
+
+Which of the following field types can be used as an External ID?
+
+A custom object has been created for storing Expense Requests. When the value of the ‘Status’ field on an Expense Request changes to ‘Processed’, a Chatter post should be created. Which automation tools can be utilized to meet this requirement?
+
+The marketing department of Cosmic Marketing Solutions would like to manage email campaigns and track responses, including the number of opens and clicks in Salesforce. They do not need the complete functionality of Marketing Cloud at this stage. What is the recommended solution for this requirement?
+
+Which of the following are declarative options available for incorporating Lightning Components in an application?
+
+There is a requirement to view real-time sales order data stored in SAP within the Salesforce account record. What is the best way to meet this requirement?
+
+There is a requirement to define an ‘Update Payment’ feature for a custom object, which users can access in the Salesforce mobile app. Clicking ‘Update Payment’ must allow the user to update the ‘Status’ field on the custom object, as well as enter comments. What tool would you recommend for this use case?
+
+A Salesforce administrator is providing end user training on the many features of Chatter. What is true regarding Chatter Questions the administrator should include in the training?
+
+If the ‘Discount’ field on an opportunity has a value greater than 30%, the opportunity needs to be automatically assigned to the Vice President for approval. Which of the following automation tools could be used to meet the requirement?
+
+"Sam has written the following validation rule for the custom field named 'Count'.
+
+What should be the error message for this validation rule?
+
+OR (Count__c = 0, MOD(Count__c, 2) <> 0)
+
+A developer has created a formula field on the Opportunity Product object to display the discounted amount associated with a product. There is a requirement to display the total discounted amount of the related products on every opportunity. Which of the following statements are true regarding the use of a roll-up summary field for this requirement?
+
+There is a requirement to add an action to the Account page in the Salesforce mobile app to enable the creation of cases. The case created should be related to the account. How can this be accomplished?
+
+Objects A and B are in a master-detail relationship, with A as the master. There is a sharing rule that grants all Marketing Users ‘Edit’ permission to object A. Based on the given information, which of the following statements are true?
+
+What will happen to a roll-up summary field when attempting to convert a master-detail relationship to a lookup relationship?
+
+The Salesforce Administrator needs to provide a way to invoke a custom report from the account detail page. The report should render values that are specific to the account in context. What are the best options to achieve this requirement?
+
+Global Systems measures its overall business efficiency through a single value called \'Customer Stickiness Score\'. Which of the following would be the most appropriate dashboard component to represent this key value on a managerial dashboard?

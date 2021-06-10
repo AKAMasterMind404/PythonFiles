@@ -1,0 +1,103 @@
+'''
+1.Which of the following provides a programmer with the facility of using object of a class inside other classes?
+
+a) Inheritance
+b) Composition
+c) Abstraction
+d) Encapsulation
+'''
+
+'''
+2.What is the Output of the following code:
+
+def main():
+    i = 3
+    l = i // -2
+    k = i % -2
+    print(l,k)
+
+if __name__=='__main__':
+    main()
+
+a)-2 1
+b)1 - 1
+c)-2 - 1
+d)1 -1
+
+Ans: -2 -1
+'''
+
+'''
+3.What is the Output of the following code:
+
+a,b=0,1
+
+a=a**b
+b=a**b
+a=a**b
+
+print(a)
+
+a)1
+b)0
+c)Error
+d)None of These
+
+Ans:1
+
+'''
+
+'''
+4.What is the value of this expression?
+
+2**2**3**1
+
+a)256
+b)128
+c)12
+d)64
+'''
+
+'''
+5.What is the Output of the following code:
+
+marks={'Robin':55, 'Dora':67}
+
+if marks['Robin']>97:
+    print('Robin tops the exam!')
+elif marks['Dora']>50:
+    print('Dora tops the exam!')
+elif marks['Peter']>marks['Robin'] and marks['Peter']>marks['Dora']:
+    print('Robin tops the exams')
+else:
+    print('Everyone scored poorly.')
+
+a)KeyError
+b)Peter tops the exam!
+c)Robin tops the exam!
+d)Dora tops the exam!
+
+Ans: Dora tops the exam!
+'''
+
+'''
+6. What is the output of the following code:
+
+initV=154
+
+newV=0
+while not initV:
+    newV=initV**2
+
+if initV!=newV:
+    initV//=2
+
+print(initV)
+
+a)11858
+b)154
+c)77
+d)23716
+
+Ans: 77
+'''
