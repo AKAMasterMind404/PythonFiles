@@ -1,15 +1,14 @@
-'''
-In what order does Salesforce process the following rules?
-1. Assignment rules
-2. Auto-response rules
-3. Escalation rules
-4. Validation rules
+input()
+arr = list(map(int, input().split()))
+d = {}
+for i in range(len(arr)):
+    if d.get(arr[i]):
+        d[arr[i]].append(i+1)
+    else:
+        d[arr[i]]=[i+1]
 
+q = int(input())
+for i in range(q):
+    num = int(input())
 
-Create a flow || Create a roll-up summary field || Create a workflow || Create a formula field
-
-
-
-
-
-'''
+print(d)
