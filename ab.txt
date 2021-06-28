@@ -1,2 +1,4 @@
 A. API Request Limitations
-C. Data Storage Limitations
+B. Data Storage Limitations
+C. API Request Limitations
+D. Data Storage Limitations
