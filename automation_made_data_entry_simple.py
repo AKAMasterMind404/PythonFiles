@@ -14,3 +14,5 @@ with open('ab.txt', 'r') as f:
                 ans += " || "
         x += 1
     print(ans)
+
+"A b i 4 t P"
