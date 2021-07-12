@@ -1,9 +1,10 @@
-def check(arr, k):
-    for i in arr:
-        for j in arr:
-            if i + j == k:
-                return True
-    return False
+n1, n2, n3 = map(int, input().split())
 
+l = len({n1, n2, n3})
 
-print(check([10, 3, 5, 7], 17))
+if l == 1:
+    print("Equilateral")
+elif l == 2:
+    print("Isoceles")
+elif l == 3:
+    print("Scalene")
