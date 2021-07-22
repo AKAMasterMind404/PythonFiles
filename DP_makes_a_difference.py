@@ -1,8 +1,7 @@
 import sys
 import time
 
-
-sys.setrecursionlimit(99999)
+sys.setrecursionlimit(9999999)
 """
 
     5
@@ -31,3 +30,12 @@ def fibonacci(num):
 
 
 hashtable = {0: 0, 1: 1, 2: 1, 3: 2}
+
+if __name__ == '__main__':
+    t1 = time.time()
+    fibonacci(999)
+    print(time.time() - t1)
+
+    t1 = time.time()
+    dp_Fibonacci(999)
+    print(time.time() - t1)

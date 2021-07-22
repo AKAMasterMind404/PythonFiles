@@ -1,14 +1,1 @@
-# 39 52
-# 8 92 93 100 105 106 140 145 152 202 204 227 241
-# 16 24
-# 23 57 59 64 90 92 130 193 204 220 223 273 275
-# 37 74
-# 38 64 95 143 188 196 280 373 396 397 420 499 553 570 575 588 707 719 884 932
-# 44 76
-# 9 33 42 44 64 65 72 111 172 243 246 257
-# 12 32
-# 19 30 34 89 107 146 147 175 177 241 264 274 280
-# 55 93
-# 122 162 163 164 165 178 189 191 224 230 243 273 276
-# 51 85
-# 18 23 24 35 106 114 158 192 224 229 242 274 291
+"Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "Dehradun", "West Bengal",
