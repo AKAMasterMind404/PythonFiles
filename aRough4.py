@@ -1,26 +1,23 @@
-ath
-ath_change_percentage
-ath_date
-atl
-atl_change_percentage
-atl_date
-circulating_supply
-current_price
-fully_diluted_valuation
-high_24h
-id
-image
-last_updated
-low_24h
-market_cap
-market_cap_change_24h
-market_cap_change_percentage_24h
-market_cap_rank
-max_supply
-name
-price_change_24h
-price_change_percentage_24h
-price_change_percentage_24h_in_currency
-symbol
-total_supply
-total_volume
+"startLocation": {},
+"endLocation": {},
+"estimatedDistInKm": 1000,
+"tripCost": 0,
+"remainingAmount": 0,
+"paymentIds": [],
+"_id": "6102d5ad5b2675ccb579b454",
+"customerId": "60ffcba940d5b26dc0081317",
+"tripId": "BNLE3982",
+"title": "Delhi-Bangalore",
+"enquiryTime": 1627575724000,
+"status": 0,
+"tripType": "collegeIv",
+"departureDate": "01-07-2021",
+"departureTime": "12:20",
+"returnDate": "12-07-2021",
+"returnTime": " 18:00",
+"passengerNumber": 50,
+"roundTrip": false,
+"stopsLocation": ,
+"additioncosts": [],
+"__v": 0,
+"additionalCosts": []
