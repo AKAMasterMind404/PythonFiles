@@ -1,23 +1,63 @@
-"startLocation": {},
-"endLocation": {},
-"estimatedDistInKm": 1000,
-"tripCost": 0,
-"remainingAmount": 0,
-"paymentIds": [],
-"_id": "6102d5ad5b2675ccb579b454",
-"customerId": "60ffcba940d5b26dc0081317",
-"tripId": "BNLE3982",
-"title": "Delhi-Bangalore",
-"enquiryTime": 1627575724000,
-"status": 0,
-"tripType": "collegeIv",
-"departureDate": "01-07-2021",
-"departureTime": "12:20",
-"returnDate": "12-07-2021",
-"returnTime": " 18:00",
-"passengerNumber": 50,
-"roundTrip": false,
-"stopsLocation": ,
-"additioncosts": [],
-"__v": 0,
-"additionalCosts": []
+import turtle as t
+
+p1 = t.Turtle()
+p1.speed(0)
+
+p1.left(90)
+p1.penup()
+p1.right(160)
+p1.pendown()
+p1.forward(120)
+p1.left(140)
+p1.forward(120)
+p1.penup()
+p1.right(75)
+p1.forward(100)
+p1.pendown()
+
+p1.goto(p1.xcor(), 0)
+
+p1.left(90)
+p1.forward(100)
+p1.right(90)
+p1.forward(75)
+p1.back(75)
+p1.right(90)
+p1.forward(50)
+p1.left(90)
+p1.forward(50)
+p1.back(50)
+p1.right(90)
+p1.forward(50)
+p1.left(90)
+p1.forward(75)
+
+### V ###
+# left(90)
+# penup()
+# right(160)
+# pendown()
+# forward(120)
+# left(140)
+# forward(120)
+#
+# penup()
+# right(75)
+# forward(100)
+# pendown()
+#
+# ### E ###
+# left(90)
+# forward(100)
+# right(90)
+# forward(75)
+# back(75)
+# right(90)
+# forward(50)
+# left(90)
+# forward(50)
+# back(50)
+# right(90)
+# forward(50)
+# left(90)
+# forward(75)
