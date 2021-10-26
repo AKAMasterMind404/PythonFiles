@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SYSTEM_SECURITY/binary_input_one_time_pad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/YashwardhansEncryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/YashwardhansEncryption.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough4.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iterateOverAFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterateOverAFile.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,33 +20,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iterateOverAFile.py">
+        <entry file="file://$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PingPong.py">
+        <entry file="file://$PROJECT_DIR$/iterateOverAFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ab.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aRough4.py">
+        <entry file="file://$PROJECT_DIR$/aRough1.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aRough2.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aRough3.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aRough5.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aRough4.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -68,6 +91,7 @@
       <find>ENTER MSG</find>
       <find>#</find>
       <find>.</find>
+      <find>maxElem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MarchDailyChallenge/9_Add_one_row_to_tree.py" />
-        <option value="$PROJECT_DIR$/MarchDailyChallenge/10_Integer_to_Roman.py" />
         <option value="$PROJECT_DIR$/MarchDailyChallenge/15_Encode_Decode_URL4.py" />
         <option value="$PROJECT_DIR$/MarchDailyChallenge/15_Encode_Decode_URL.py" />
         <option value="$PROJECT_DIR$/MarchDailyChallenge/3_Sum_Multiplicity.py" />
@@ -107,7 +129,6 @@
         <option value="$PROJECT_DIR$/DataStructures/SinglelyLinkedList.py" />
         <option value="$PROJECT_DIR$/duplicate.txt" />
         <option value="$PROJECT_DIR$/a_s_input1.txt.txt" />
-        <option value="$PROJECT_DIR$/aRough1.py" />
         <option value="$PROJECT_DIR$/ip1_test.txt" />
         <option value="$PROJECT_DIR$/ip1.in" />
         <option value="$PROJECT_DIR$/a_s_input1.txt" />
@@ -115,24 +136,27 @@
         <option value="$PROJECT_DIR$/dsa_final.py" />
         <option value="$PROJECT_DIR$/aRough3.py" />
         <option value="$PROJECT_DIR$/ip1.txt" />
-        <option value="$PROJECT_DIR$/ab.txt" />
         <option value="$PROJECT_DIR$/automation_made_data_entry_simple.py" />
         <option value="$PROJECT_DIR$/retpyrcne.py" />
         <option value="$PROJECT_DIR$/abc.txt" />
         <option value="$PROJECT_DIR$/DP_makes_a_difference.py" />
         <option value="$PROJECT_DIR$/OneBaseToAnotherConverter.py" />
         <option value="$PROJECT_DIR$/aRough2.py" />
-        <option value="$PROJECT_DIR$/iterateOverAFile.py" />
         <option value="$PROJECT_DIR$/PingPong.py" />
+        <option value="$PROJECT_DIR$/Algorithms/YashwardhansEncryption.py" />
+        <option value="$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py" />
+        <option value="$PROJECT_DIR$/SYSTEM_SECURITY/binary_input_one_time_pad.py" />
         <option value="$PROJECT_DIR$/aRough5.py" />
         <option value="$PROJECT_DIR$/aRough4.py" />
-        <option value="$PROJECT_DIR$/Algorithms/YashwardhansEncryption.py" />
+        <option value="$PROJECT_DIR$/ab.txt" />
+        <option value="$PROJECT_DIR$/iterateOverAFile.py" />
+        <option value="$PROJECT_DIR$/aRough1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="125" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="362" />
+    <option name="y" value="97" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -144,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,10 +180,16 @@
               <item name="BattleGame_RPG" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BattleGame_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleGame_RPG" type="462c0819:PsiDirectoryNode" />
+              <item name="SYSTEM_SECURITY" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +197,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -198,28 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.YashwardhansEncryption">
-    <configuration name="PingPong" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PingPong.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.aRough1">
     <configuration name="YashwardhansEncryption" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,13 +354,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="one_time_pad_encryption" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SYSTEM_SECURITY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.YashwardhansEncryption" />
+        <item itemvalue="Python.iterateOverAFile" />
         <item itemvalue="Python.aRough4" />
         <item itemvalue="Python.aRough5" />
-        <item itemvalue="Python.PingPong" />
-        <item itemvalue="Python.iterateOverAFile" />
+        <item itemvalue="Python.one_time_pad_encryption" />
+        <item itemvalue="Python.YashwardhansEncryption" />
       </list>
     </recent_temporary>
   </component>
@@ -379,9 +408,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="290" y="78" width="1152" height="620" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17701453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20430107" />
       <window_info id="Structure" order="1" weight="0.20343462" />
       <window_info id="Favorites" order="2" weight="0.1621984" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -395,18 +424,18 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3281471" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32531825" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.48877147" weight="0.55445546" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.48877147" weight="0.51909477" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23712021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17701453" />
       <window_info id="Structure" order="1" weight="0.20343462" />
-      <window_info id="Favorites" order="2" weight="0.16220239" />
+      <window_info id="Favorites" order="2" weight="0.1621984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22489391" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.37340876" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.7779349" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
@@ -415,7 +444,7 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3281471" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32531825" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="11" sideWeight="0.48877147" visible="true" weight="0.51909477" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.48877147" weight="0.7213578" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,20 +500,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MarchDailyChallenge/29_Flip_Binary_Tree_To_Match.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MarchDailyChallenge/1_Distribute_Candies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MarchDailyChallenge/2_Set_Mismatch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -604,27 +619,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/a_s_input1.txt.txt" />
-    <entry file="file://$PROJECT_DIR$/aRough1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ip1.in">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/a_s_input1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/aRough3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ip1_test.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ES/APIdata.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -725,9 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aRough2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DP_makes_a_difference.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -737,26 +736,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iterateOverAFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PingPong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aRough5.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithms/YashwardhansEncryption.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,7 +747,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PingPong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SYSTEM_SECURITY/binary_input_one_time_pad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterateOverAFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRough2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRough3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRough5.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/aRough4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRough1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
