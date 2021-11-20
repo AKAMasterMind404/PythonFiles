@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SYSTEM_SECURITY/binary_input_one_time_pad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kmean_clustering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Titanic_Dataset.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ab.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iterateOverAFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/iterateOverAFile.py" afterDir="false" />
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iterateOverAFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -40,25 +40,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ab.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            <state relative-caret-position="105">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aRough1.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aRough2.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aRough3.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -66,8 +51,8 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aRough4.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aRough2.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -100,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MarchDailyChallenge/15_Encode_Decode_URL4.py" />
         <option value="$PROJECT_DIR$/MarchDailyChallenge/15_Encode_Decode_URL.py" />
         <option value="$PROJECT_DIR$/MarchDailyChallenge/3_Sum_Multiplicity.py" />
         <option value="$PROJECT_DIR$/MarchDailyChallenge/7_Design_Hashmap.py" />
@@ -141,22 +125,23 @@
         <option value="$PROJECT_DIR$/abc.txt" />
         <option value="$PROJECT_DIR$/DP_makes_a_difference.py" />
         <option value="$PROJECT_DIR$/OneBaseToAnotherConverter.py" />
-        <option value="$PROJECT_DIR$/aRough2.py" />
         <option value="$PROJECT_DIR$/PingPong.py" />
         <option value="$PROJECT_DIR$/Algorithms/YashwardhansEncryption.py" />
         <option value="$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py" />
         <option value="$PROJECT_DIR$/SYSTEM_SECURITY/binary_input_one_time_pad.py" />
-        <option value="$PROJECT_DIR$/aRough5.py" />
         <option value="$PROJECT_DIR$/aRough4.py" />
+        <option value="$PROJECT_DIR$/aRough1.py" />
         <option value="$PROJECT_DIR$/ab.txt" />
         <option value="$PROJECT_DIR$/iterateOverAFile.py" />
-        <option value="$PROJECT_DIR$/aRough1.py" />
+        <option value="$PROJECT_DIR$/aRough5.py" />
+        <option value="$PROJECT_DIR$/Kmean_clustering.py" />
+        <option value="$PROJECT_DIR$/aRough2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="362" />
-    <option name="y" value="97" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="315" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
@@ -178,11 +163,6 @@
             <path>
               <item name="BattleGame_RPG" type="b2602c69:ProjectViewProjectNode" />
               <item name="BattleGame_RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BattleGame_RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BattleGame_RPG" type="462c0819:PsiDirectoryNode" />
               <item name="SYSTEM_SECURITY" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -197,22 +177,22 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PycharmProjects\BattleGame_RPG" />
-      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\hashcode2021" />
-      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\hashcode\19ips" />
-      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\hashcode" />
-      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\ES" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\PycharmProjects\BattleGame_RPG\templates" />
       <recent name="C:\PycharmProjects\BattleGame_RPG\Recursion" />
       <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\MarchDailyChallenge" />
       <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\hashcode2021\2021submission" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\BattleGame_RPG" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\hashcode2021" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\hashcode\19ips" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\hashcode" />
+      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\ES" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,8 +207,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aRough1">
-    <configuration name="YashwardhansEncryption" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.aRough2">
+    <configuration name="Kmean_clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,11 +216,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/YashwardhansEncryption.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kmean_clustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,6 +242,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aRough2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,34 +355,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="one_time_pad_encryption" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SYSTEM_SECURITY" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aRough2" />
+        <item itemvalue="Python.Kmean_clustering" />
+        <item itemvalue="Python.aRough5" />
         <item itemvalue="Python.iterateOverAFile" />
         <item itemvalue="Python.aRough4" />
-        <item itemvalue="Python.aRough5" />
-        <item itemvalue="Python.one_time_pad_encryption" />
-        <item itemvalue="Python.YashwardhansEncryption" />
       </list>
     </recent_temporary>
   </component>
@@ -408,9 +388,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="78" width="1152" height="620" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20430107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20409511" />
       <window_info id="Structure" order="1" weight="0.20343462" />
       <window_info id="Favorites" order="2" weight="0.1621984" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -424,7 +404,7 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3281471" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32531825" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.48877147" weight="0.51909477" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.48877147" weight="0.31966054" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -500,13 +480,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MarchDailyChallenge/2_Set_Mismatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HourGlass.py" />
     <entry file="file://$PROJECT_DIR$/Homework.py" />
     <entry file="file://$PROJECT_DIR$/Lab 1 DS.py">
@@ -764,6 +737,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aRough3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRough4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aRough1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kmean_clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="18" lean-forward="true" selection-end-line="46" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -773,31 +762,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterateOverAFile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ab.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aRough2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aRough3.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/aRough5.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/aRough4.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aRough1.py">
+    <entry file="file://$PROJECT_DIR$/aRough2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
