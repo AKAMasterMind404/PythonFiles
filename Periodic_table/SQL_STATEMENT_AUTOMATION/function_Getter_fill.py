@@ -2,6 +2,26 @@ import mysql.connector
 import requests as r
 
 
+def automateFunctiom():
+    ppp = ""
+    for a,b in enumerate(data):
+        i = b
+
+        r = i['atomicNumber']
+        n = i['name']
+        s = i["symbol"]
+        m = massRefiner(i['atomicMass'])
+        b = i["block"]
+        rad = str(i['atomicRadius']) if i['atomicRadius'] else 'Unknown'
+        # print(r)
+        # print(f'displayInfo({r},"{n}","{m}","{rad},"{b}");')
+        print(f"Element e{a+1} = Element(atomic: {r}, symbol: '{s}', name: '{n}', block: '{b}');")
+        # Element(atomic: 1, symbol: "H", name: "Hydrogen", block: "p")
+        # print('#############')
+        ppp+=f"e{a+1}, "
+    print(ppp)
+
+
 def massRefiner(val):
     if type(val) == list: return str(val[0])
 
@@ -28,19 +48,8 @@ mydb = mysql.connector.connect(
 )
 
 mycursor = mydb.cursor()
-data = eval(r.get('https://neelpatel05.pythonanywhere.com/').text)
-
-
-def automateFunctiom():
-    for i in data:
-        r = i['atomicNumber']
-        n = i['name']
-        m = massRefiner(i['atomicMass'])
-        rad = str(i['atomicRadius']) if i['atomicRadius'] else 'Unknown'
-        # print(r)
-        print(f'displayInfo({r},"{n}","{m}","{rad}");')
-        print('#############')
-
+data = eval(r.get('https://periodic-table-elements-info.herokuapp.com/elements').text)
+automateFunctiom()
 
 if __name__ == '__main__':
     sampleQuery = "SELECT " + \

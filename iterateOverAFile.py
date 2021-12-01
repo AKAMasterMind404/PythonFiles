@@ -1,4 +1,4 @@
-with open("ab.txt","r") as file:
+with open("ab.txt", "r") as file:
     attr = []
     name = input("Name of blueprint:")
     brkt1 = "{"
@@ -13,15 +13,15 @@ with open("ab.txt","r") as file:
         type = "String"
         if val == "null":
             type = "dynamic"
-        if val.count("\"")==2:
+        if val.count("\"") == 2:
             type = "String"
-        elif val.count("[")==1 and val.count("]")==1:
+        elif val.count("[") == 1 and val.count("]") == 1:
             type = "List"
-        elif val.count("{")==1 and val.count("}")==1:
+        elif val.count("{") == 1 and val.count("}") == 1:
             type = "Map"
-        elif val.count("\"")==0:
+        elif val.count("\"") == 0:
             type = "int"
-        elif val.count(".")==1:
+        elif val.count(".") == 1:
             type = "double"
 
         print(f"{type} {attribute};")
