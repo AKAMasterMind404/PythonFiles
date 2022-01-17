@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--    <link rel="stylesheet" href="draw.css">-->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/draw.css') }}">
+
+
+  <title>Welcome</title>
+</head>
+<style>
+  #container1 {
+    width: auto;
+    height: 70px;
+    align-self: flex-start;
+    box-shadow: 2px 2px 2px darkgray;
+    background-color: orange;
+    padding: 1rem;
+    font-size: 3rem;
+    font-family: cursive;
+    border-radius: 0.3rem;
+    color: white;
+    border-color: whitesmoke;
+    border-width: 2rem;
+
+  }
+
+  #button2 {
+    background-color: orange;
+    color: white;
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    font-family: cursive;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px darkgray;
+    border-color: whitesmoke;
+    border-width: 0rem;
+    margin: 0.8rem;
+  }
+
+  #button1 {
+    background-color: orange;
+    color: white;
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 1.2rem;
+    font-family: cursive;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px darkgray;
+    border-color: whitesmoke;
+    border-width: 0rem;
+    margin: 0.8rem;
+  }
+  #button3 {
+    background-color: orange;
+    color: white;
+    height: 5rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    font-family: cursive;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px darkgray;
+    border-color: whitesmoke;
+    border-width: 0rem;
+    margin: 0.8rem;
+    padding: 0.3rem;
+    text-decoration: none;
+  }
+
+  #div {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    /* background-color: black; */
+    color: white;
+  }
+</style>
+
+<body>
+  <!--<form enctype="multipart/form-data" action="{{ url_for('receive_data') }}" method="post">-->
+  <div id="container1">
+    <center>Draw a number (0 - 9)</center>
+  </div>
+  <br>
+  <br>
+
+  <center>
+    <div id="div"></div>
+    <br>
+    <center>
+      <button id="button1" type="submit">Save</button>
+      <form style="display: inline-block;" action="{{url_for ('receive_data')}}" method="post">
+        <button id="button2">Predict Number</button>
+      </form>
+    </center>
+    <!--</form>-->
+
+    <script src="http://cdn.jsdelivr.net/g/filesaver.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawingboard.js/0.4.6/drawingboard.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        var imageBoard = new DrawingBoard.Board('div', {
+          controls: true,
+          color: '#fff',
+          background:'#000',
+          size: 30,
+          webStorage: false
+
+        });
+        $("button").click(function () {
+          domtoimage.toBlob(document.getElementById('div'))
+            .then(function (blob) {
+              window.saveAs(blob, 'picture.png');
+
+              // var img_Request = new XMLHttpRequest();
+              // send_Image = store_Image.XMLHttpRequest();
+
+            })
+          // .then((value) => {
+          //   console.log("redirecting")
+          //   window.location = "http://127.0.0.1:8080/receive_data";
+          //   wndow.location
+          // });
+        });
+      })
+
+    </script>
+
+
+    <!-- <img name="get_Image_To_Predict" src="{{url_for('receive_data', filename='picture.png')}}"> -->
+
+    <!-- <a href="../Store Images/" download="picture.png"></a> -->
+
+    <!-- <script>
+  $(document).ready(function () {
+    var customBoard2 = new DrawingBoard.Board('div', {
+      size: 1,
+      webStorage: 'session',
+      enlargeYourContainer: true
+    });
+    $("button").click(function () {
+      domtoimage.toBlob(document.getElementById('div'))
+        .then(function (blob) {
+          window.saveAs(blob, 'picture.png');
+        });
+    })
+    customBoard2.controls.do
+  })
+
+</script> -->
+<br>
+<a href="{{url_for ('shape_predict')}}" id="button3">Predict Shape</a>
+</body>
+
+</html>
