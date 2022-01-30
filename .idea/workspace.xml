@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pseudocode_meetapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough3.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +41,23 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aRough1.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mini_projects/Web_Crawler_incomplete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -172,10 +184,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -185,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,11 +205,15 @@
               <item name="BattleGame_RPG" type="b2602c69:ProjectViewProjectNode" />
               <item name="BattleGame_RPG" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BattleGame_RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BattleGame_RPG" type="462c0819:PsiDirectoryNode" />
+              <item name="mini_projects" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -431,7 +448,7 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3281471" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32531825" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.48877147" weight="0.59971714" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.48877147" weight="0.27157003" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -507,13 +524,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/op1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Periodic_table/SQL_STATEMENT_AUTOMATION/query_generation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -751,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pseudocode_meetapp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/abc.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -768,8 +771,29 @@
     <entry file="file://$PROJECT_DIR$/ajavaCode.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mini_projects/Web_Crawler_incomplete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pseudocode_meetapp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aRough1.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
