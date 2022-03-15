@@ -1,35 +1,93 @@
+import numpy as np
+import matplotlib.pyplot as plt
 import pandas as pd
 
-data = pd.read_csv("Dataset.csv")
-print("DATA::")
-print(data)
-print()
+dataset = pd.read_csv('Wine.csv')
 
-data["Gender"].replace("Male", 1, inplace=True)
-data["Gender"].replace("Female", 0, inplace=True)
+X = dataset.iloc[:, 0:13].values
+y = dataset.iloc[:, 13::].values
 
-head = data.head()
-print("HEAD::")
-print(head)
-print()
+dataset
 
-X = data.drop("Purchased", axis=1)
-y = data["Purchased"]
-print("LEN X AND Y::")
-print(len(X), len(y))
-
-from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=1)
-model = GaussianNB()
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
-print("MODEL.FIT RESULT:")
-print(model.fit(X_train, y_train))
-print("MODEL.SCORE RESULT:")
-print(model.score(X_test, y_test))
-print()
+from sklearn.preprocessing import StandardScaler
 
-y_preds = model.predict(X_test)
-print("PREDICTION RESULT")
-print(y_preds)
+sc = StandardScaler()
+
+X_train = sc.fit_transform(X_train)
+X_test = sc.transform(X_test)
+
+from sklearn.decomposition import PCA
+
+pca = PCA(n_components=2)
+
+X_train = pca.fit_transform(X_train)
+X_test = pca.transform(X_test)
+
+explained_variance = pca.explained_variance_ratio_
+
+from sklearn.linear_model import LogisticRegression
+
+classifier = LogisticRegression(random_state=0)
+classifier.fit(X_train, y_train)
+
+y_pred = classifier.predict(X_test)
+
+from sklearn.metrics import confusion_matrix
+
+cm = confusion_matrix(y_test, y_pred)
+
+from matplotlib.colors import ListedColormap
+
+X_set, y_set = X_train, y_train
+X1, X2 = np.meshgrid(np.arange(start=X_set[:, 0].min() - 1,
+                               stop=X_set[:, 0].max() + 1, step=0.01),
+                     np.arange(start=X_set[:, 1].min() - 1,
+                               stop=X_set[:, 1].max() + 1, step=0.01))
+
+plt.contourf(X1, X2, classifier.predict(np.array([X1.ravel(),
+                                                  X2.ravel()]).T).reshape(X1.shape), alpha=0.75,
+             cmap=ListedColormap(('yellow', 'white', 'aquamarine')))
+
+plt.xlim(X1.min(), X1.max())
+plt.ylim(X2.min(), X2.max())
+
+for i, j in enumerate(np.unique(y_set)):
+    plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
+                c=ListedColormap(('red', 'green', 'blue'))(i), label=j)
+
+plt.title('Logistic Regression (Training set)')
+plt.xlabel('PC1')  # for Xlabel
+plt.ylabel('PC2')  # for Ylabel
+plt.legend()  # to show legend
+
+plt.show()
+from matplotlib.colors import ListedColormap
+
+X_set, y_set = X_test, y_test
+
+X1, X2 = np.meshgrid(np.arange(start=X_set[:, 0].min() - 1,
+                               stop=X_set[:, 0].max() + 1, step=0.01),
+                     np.arange(start=X_set[:, 1].min() - 1,
+                               stop=X_set[:, 1].max() + 1, step=0.01))
+
+plt.contourf(X1, X2, classifier.predict(np.array([X1.ravel(),
+                                                  X2.ravel()]).T).reshape(X1.shape), alpha=0.75,
+             cmap=ListedColormap(('yellow', 'white', 'aquamarine')))
+
+plt.xlim(X1.min(), X1.max())
+plt.ylim(X2.min(), X2.max())
+
+for i, j in enumerate(np.unique(y_set)):
+    plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1],
+                c=ListedColormap(('red', 'green', 'blue'))(i), label=j)
+
+plt.title('Logistic Regression (Test set)')
+plt.xlabel('PC1')  # for Xlabel
+plt.ylabel('PC2')  # for Ylabel
+plt.legend()
+
+plt.show()
