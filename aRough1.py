@@ -1,16 +1,20 @@
-#importing webdriver from selenium
-from selenium import webdriver
+# Definition for a binary tree node.
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
-#selecting Firefox as the browser
-#in order to select Chrome
-# webdriver.Chrome() will be used
-driver = webdriver.Chrome(executable_path = 'C:/Users/Admin/Downloads/chromedriver.exe')
 
-#URL of the website
-url = "https://surveyheart.com/form/61f412c4c0f30029d1542fee"
+class Solution:
+    def dfs(self, n1: TreeNode, n2: TreeNode):
+        if n1 and n2:
+            n1.val += n2.val
+            n1.left = self.dfs(n1.left, n2.left)
+            n1.right = self.dfs(n1.right, n2.right)
+            return n1
+        else:
+            return n1 or n2
 
-#opening link in the browser
-driver.get(url)
-
-# start_survey_button = driver.find_element_by_xpath('//*[@id="start_survey_button"]')
-# start_survey_button.click()
+    def mergeTrees(self, root1: TreeNode, root2: TreeNode) -> TreeNode:
+        return self.dfs(root1, root2)
