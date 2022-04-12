@@ -8,26 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/countBattleships.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/count_sub_islands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/flood_fill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/isTheSameTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/islandPerimeter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/kth_smallest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/largestValueInARow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/maxDepth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/number_of_islands_dfs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/recover_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/remove_k_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/symmetric_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interesting_Problems/validate_binary_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnn8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough3.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chainreaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/chainreaction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +186,7 @@
       <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.aRough1">
+  <component name="RunManager" selected="Python.aRough3">
     <configuration name="aRough1" type="PythonConfigurationType" factoryName="Python">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,9 +336,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aRough3" />
         <item itemvalue="Python.aRough2" />
         <item itemvalue="Python.count_sub_islands" />
-        <item itemvalue="Python.aRough3" />
         <item itemvalue="Python.number_of_islands_dfs" />
         <item itemvalue="Python.automation_made_data_entry_simple" />
       </list>

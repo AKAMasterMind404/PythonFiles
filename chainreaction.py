@@ -1,3 +1,20 @@
+# Project Description: The project had been made by me in the first year, back when I was learning the basic syntax
+# of programming as well as OOP concepts.
+#
+# Why am I proud of it? I got the opportunity to apply OOP concepts that I had learned during the previous semester
+# in this project such as chaining, giving meaningful properties to objects, methods, etc. I also implemented
+# Depth-first-search unknowingly in my project. This project helped me grasp the concepts of OOP and use them at the
+# same time. Thanks to this, I am no longer afraid of classes anymore!
+#
+# Working: This is a two-player CLI game that is made using python. The initial setup consists of a 10x10 grid. The
+# two players take turns while playing and every time a choice is being made, the following things are checked:
+#
+# 1. Whether the square is already occupied by another player.
+# 2. Whether the selection would cause a chain reaction.
+# 3. Whether any of the players has won.
+#
+# The game ends when either of the players has occupied all existing selections.
+
 class grid:
     def __init__(self, x, y, value, u, d, l, r):
         self.x = x
