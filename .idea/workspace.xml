@@ -8,10 +8,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dnn8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/django_FCC.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_3_5_22/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chainreaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/chainreaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +160,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="951" />
@@ -164,29 +196,135 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\django_3_5_22\firstDjangoProject\static" />
+      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\PycharmProjects" />
       <recent name="C:\PycharmProjects\BattleGame_RPG\atharv_upload" />
-      <recent name="C:\PycharmProjects\BattleGame_RPG\hp" />
-      <recent name="C:\PycharmProjects\BattleGame_RPG\hp-new" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\PycharmProjects\BattleGame_RPG\templates" />
       <recent name="C:\PycharmProjects\BattleGame_RPG\Hp-Project" />
       <recent name="C:\PycharmProjects\BattleGame_RPG\Recursion" />
       <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\MarchDailyChallenge" />
-      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.aRough3">
+  <component name="RunManager" selected="Python.aRough1">
+    <configuration name="A2_f" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A2_f.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="A3__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A3__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/a11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a11/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a2__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a2__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a4__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a4__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="aRough1" type="PythonConfigurationType" factoryName="Python">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,90 +338,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aRough2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aRough3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="automation_made_data_entry_simple" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automation_made_data_entry_simple.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="count_sub_islands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interesting_Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interesting_Problems/count_sub_islands.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,34 +367,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="number_of_islands_dfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Interesting_Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Interesting_Problems/number_of_islands_dfs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.aRough3" />
-        <item itemvalue="Python.aRough2" />
-        <item itemvalue="Python.count_sub_islands" />
-        <item itemvalue="Python.number_of_islands_dfs" />
-        <item itemvalue="Python.automation_made_data_entry_simple" />
+        <item itemvalue="Python.a" />
+        <item itemvalue="Python.a2__" />
+        <item itemvalue="Python.a4__" />
+        <item itemvalue="Python.A3__" />
+        <item itemvalue="Python.A2_f" />
       </list>
     </recent_temporary>
   </component>
@@ -420,6 +453,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
