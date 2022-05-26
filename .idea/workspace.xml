@@ -8,42 +8,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FCC_Django/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/django_FCC.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_3_5_22/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FCC_Django/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/atharv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/atharv/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/atharv/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/atharv/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/atharv/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/atharv/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/migrations/0002_alter_usermodelcustom_age_alter_usermodelcustom_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/products_apis/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/homeapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/allUsersList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/create_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/deletedUserPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/getSingleUser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/page1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/page2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/page3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/pages/page4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atharv/productsPages/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/FCC_Django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Django/home/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django_3_5_22/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -197,71 +199,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/atharv/pages" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\pages" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\django_3_5_22\firstDjangoProject\static" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\PycharmProjects" />
-      <recent name="C:\PycharmProjects\BattleGame_RPG\atharv_upload" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\pages" />
+      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv" />
+      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\atharv" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\PycharmProjects\BattleGame_RPG\templates" />
-      <recent name="C:\PycharmProjects\BattleGame_RPG\Hp-Project" />
-      <recent name="C:\PycharmProjects\BattleGame_RPG\Recursion" />
-      <recent name="C:\Users\LENOVO\PycharmProjects\BattleGame_RPG\MarchDailyChallenge" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.aRough1">
-    <configuration name="A2_f" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A2_f.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="A3__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A3__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.blink_detect">
     <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -346,6 +307,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="blink_detect" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Eye-blink-detection-game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eye-blink-detection-game/blink_detect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eye_blink_game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Eye-blink-detection-game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Eye-blink-detection-game/eye_blink_game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="hc2020" type="PythonConfigurationType" factoryName="Python">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -369,11 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.blink_detect" />
+        <item itemvalue="Python.eye_blink_game" />
         <item itemvalue="Python.a" />
         <item itemvalue="Python.a2__" />
         <item itemvalue="Python.a4__" />
-        <item itemvalue="Python.A3__" />
-        <item itemvalue="Python.A2_f" />
       </list>
     </recent_temporary>
   </component>

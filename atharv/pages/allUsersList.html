@@ -1,0 +1,13 @@
+{%extends 'base.html'%}
+
+{% block content %}
+
+<h1>
+    <ul>
+        {%for user in object_list%}
+        <li>Name:{{user.name}}, age: {{user.age}}</li>
+        {%endfor%}
+    </ul>
+</h1>
+
+{% endblock %}
