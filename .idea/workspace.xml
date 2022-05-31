@@ -8,43 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FCC_Django/home/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/atharv/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/atharv/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/atharv/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/atharv/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/atharv/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/atharv/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/migrations/0002_alter_usermodelcustom_age_alter_usermodelcustom_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/products_apis/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/homeapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/allUsersList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/create_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/deletedUserPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/getSingleUser.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/page1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/page2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/page3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/pages/page4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atharv/productsPages/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FCC_Django/FCC_Django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Django/FCC_Django/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FCC_Django/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/FCC_Django/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_3_5_22/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django_3_5_22/notes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +164,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
