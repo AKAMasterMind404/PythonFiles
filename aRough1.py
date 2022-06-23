@@ -1,9 +1,9 @@
-def gen(): yield from range(100)
+l1 = ['a']
+l2 = ['a']
+l3 = ['c']
+l4 = ['d']
+l5 = ['e']
 
-print(gen())
+dic1 = {"l1": l1, "l2": l2, "l3": l3, "l4": l4, "l5": l1}
 
-print({i:i for i in range(100)})
-
-print(i for i in range(100))
-
-print(open('aRough1.py'))
+[print(i) for i in dic1.keys() if not dic1.get(i)]
