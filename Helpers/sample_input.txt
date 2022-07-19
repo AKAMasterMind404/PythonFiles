@@ -1,0 +1,5 @@
+	"email": "{{atharv}}",
+	"name": "This my name",
+	"subject": "Subject",
+	"body": "This is the body",
+	"fromName": "Bajooba"
