@@ -1,11 +1,11 @@
 import os
 
-path = os.path.abspath('')
+path = os.path.abspath('..')
 
 tab = "    "
 
 with open(path + '\\sample_input.txt') as file:
-    dtoname = "SentEmailInput"
+    dtoname = "IInvoiceNotifyAdmin"
 
     print(f"export interface I{dtoname}DTO ", "{")
     print(f"subject: string;")
@@ -28,3 +28,10 @@ with open(path + '\\sample_input.txt') as file:
 
         print(f"{tab}{key} : reqBody.{key},")
     print("}};")
+
+with open(path + '\\sample_input.txt') as file:
+    for i in file:
+        line = i.strip()
+        key, val = line.split(":")
+        key, val = str(key).replace('"', ""), str(val).replace('"', "")
+        key, val = str(key).replace("'", "'"), str(val).replace("'", "'")

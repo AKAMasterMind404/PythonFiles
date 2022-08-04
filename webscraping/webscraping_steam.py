@@ -95,4 +95,4 @@ if __name__ == '__main__':
     print("DOWNLOADING IMAGES....")
     for j, i in enumerate(images_to_download):
         downloadImage(i, j)
-    print(f"IMAGES DOWNLOADED AT {os.path.abspath('.')}\{folder_name}!")
+    print(f"IMAGES DOWNLOADED AT {os.path.abspath('..')}\{folder_name}!")
