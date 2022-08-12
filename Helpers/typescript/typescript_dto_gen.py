@@ -11,7 +11,7 @@ with open(path + '\\sample_input.txt') as file:
     print(f"subject: string;")
     for i in file:
         line = i.strip()
-        key, val = line.split(":")
+        key, val = line.split(":")[0], "".join(line.split(":")[1::])
         key, val = str(key).replace('"', ""), str(val).replace('"', "")
         key, val = str(key).replace("'", "'"), str(val).replace("'", "'")
         print(f"{tab}{key} : string;")
@@ -22,16 +22,16 @@ with open(path + '\\sample_input.txt') as file:
     print(f"subject: {dtoname}Template.SUBJECT,")
     for i in file:
         line = i.strip()
-        key, val = line.split(":")
+        key, val = line.split(":")[0], "".join(line.split(":")[1::])
         key, val = str(key).replace('"', ""), str(val).replace('"', "")
         key, val = str(key).replace("'", "'"), str(val).replace("'", "'")
 
-        print(f"{tab}{key} : reqBody.{key},")
+        print(f"{tab}{key} : body.{key},")
     print("}};")
 
 with open(path + '\\sample_input.txt') as file:
     for i in file:
         line = i.strip()
-        key, val = line.split(":")
+        key, val = line.split(":")[0], "".join(line.split(":")[1::])
         key, val = str(key).replace('"', ""), str(val).replace('"', "")
         key, val = str(key).replace("'", "'"), str(val).replace("'", "'")

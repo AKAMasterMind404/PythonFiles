@@ -17,10 +17,19 @@ def getPackageVersion(package: str):
 
 
 if __name__ == '__main__':
-    packages = ['dio', 'http', 'provider']
+    packages = [
+        'dio',
+        'fluttertoast',
+        'google_sign_in',
+        'firebase_auth',
+        'firebase_core',
+        'image_picker',
+        'google_mobile_ads',
+        'cupertino_icons'
+    ]
 
     for p in packages:
         res = getPackageVersion(p)
         print(res)
-
-    while True:pass
+    # inp = input()
+    # if inp.lower() == "exit": exit()

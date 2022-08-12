@@ -8,19 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Helpers/binary_search_tempalte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helpers/flutter_package.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helpers/random_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helpers/typescript/typescript_dto_gen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Helpers/jsonify.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/typescript/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/flutter_package.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/flutter_package.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Helpers/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/typescript_dto_gen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_Crawler_Yahoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/webscraping/Web_Crawler_Yahoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/typescript/typescript_dto_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/typescript/typescript_dto_gen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_crawl_Towers_of_hanoi_trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/webscraping/web_crawl_Towers_of_hanoi_trial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webscraping_steam.py" beforeDir="false" afterPath="$PROJECT_DIR$/webscraping/webscraping_steam.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +193,7 @@
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\atharv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.typescript_dto_gen">
+  <component name="RunManager" selected="Python.jsonify">
     <configuration name="aRough1" type="PythonConfigurationType" factoryName="Python">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,27 +207,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aRough2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,6 +278,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="jsonify" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Helpers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Helpers/jsonify.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -350,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jsonify" />
+        <item itemvalue="Python.flutter_package" />
         <item itemvalue="Python.typescript_dto_gen" />
         <item itemvalue="Python.binary_search_tempalte" />
-        <item itemvalue="Python.flutter_package" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.aRough2" />
       </list>
     </recent_temporary>
   </component>
