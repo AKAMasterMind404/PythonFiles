@@ -5,7 +5,7 @@ path = os.path.abspath('..')
 tab = "    "
 
 with open(path + '\\sample_input.txt') as file:
-    dtoname = "IInvoiceNotifyAdmin"
+    dtoname = "GetContacts"
 
     print(f"export interface I{dtoname}DTO ", "{")
     print(f"subject: string;")
@@ -18,7 +18,7 @@ with open(path + '\\sample_input.txt') as file:
     print("}")
 
 with open(path + '\\sample_input.txt') as file:
-    print(f"private getI{dtoname}(reqBody) : I{dtoname}DTO", "{\n" + "return {")
+    print(f"private getI{dtoname}(body) : I{dtoname}DTO", "{\n" + "return {")
     print(f"subject: {dtoname}Template.SUBJECT,")
     for i in file:
         line = i.strip()

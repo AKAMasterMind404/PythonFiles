@@ -1,6 +1,4 @@
-  contactId: 'ga8ADYXdOW',
-  tenantId: '9xP0p480zR',
-  email: 'na@gmail.com',
-  phone: undefined,
-  firstName: 'WALKIN',
-  lastName: ''
+limit: "",
+offset: "",
+listIds: "",
+tenantId: "",
