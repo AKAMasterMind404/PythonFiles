@@ -9,9 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/sample_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/typescript/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/electricity_bill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/typescript/typescript_dto_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/typescript/typescript_dto_gen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
