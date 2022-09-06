@@ -1,4 +1,3 @@
-limit: "",
-offset: "",
-listIds: "",
-tenantId: "",
+"Student":{"Name":"John","Age":"15"},"Class":"10"
+3
+Student.Name Student.Age Class
