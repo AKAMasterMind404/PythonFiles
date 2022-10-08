@@ -1,23 +1,39 @@
-class Solution:
-    def binarySearch(self, l, h, arr, element):
-        if element > arr[-1]:
-            return arr[-1]
-        if l > h:
-            return arr[l]
-        
-        mid = l + (h - l) // 2
-        mid_element = arr[mid]
+import expressLoader from './express';
+import dependencyInjectorLoader from './dependencyInjector';
+import mongooseLoader from './mongoose';
+import jobsLoader from './jobs';
+import Logger from './logger';
 
-        if mid_element == element:
-            return arr[mid + 1] if mid + 1 < len(arr) else arr[-1]
-        elif mid_element < element:
-            return self.binarySearch(mid + 1, h, arr, element)
-        else:
-            return self.binarySearch(l, mid - 1, arr, element)
-    
-    def nextGreatestLetter(self, nums: list[int], target: int) -> int:
-        return self.binarySearch(0, len(nums), nums, target)
+export default async ({ expressApp }) => {
+    const mongoConnection = await mongooseLoader();
+Logger.info('✌️ DB loaded and connected!');
 
-    
-s1 = Solution()
-print(s1.nextGreatestLetter(["c","f","j"],"j"))
+const testModel = {
+    name: 'testModel',
+    model: require('../models/test').default,
+};
+
+const roomModel = {
+    name: 'roomModel',
+    model: require('../models/room').default,
+};
+
+const userModel = {
+    name: 'userModel',
+    model: require('../models/user').default,
+};
+
+const { logger } = await dependencyInjectorLoader({
+    mongoConnection,
+    models: [
+                testModel,
+                userModel,
+                roomModel
+            ],
+});
+Logger.info('✌️ Dependency Injector loaded');
+
+
+await expressLoader({ app: expressApp });
+Logger.info('✌️ Express loaded');
+};

@@ -18,14 +18,9 @@ def getPackageVersion(package: str):
 
 if __name__ == '__main__':
     packages = [
-        'dio',
-        'fluttertoast',
-        'google_sign_in',
-        'firebase_auth',
-        'firebase_core',
-        'image_picker',
-        'google_mobile_ads',
-        'cupertino_icons'
+        "firebase_core",
+        "firebase_auth",
+        "google_sign_in",
     ]
 
     for p in packages:
