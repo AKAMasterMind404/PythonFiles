@@ -187,9 +187,17 @@ class GenerateScripts:
                 else:
                     _.write(line)
 
+    def runAllScripts(self):
+        self.createInterface()
+        self.createModel()
+        self.registerModel()
+        self.createService()
+        self.createRoute()
+        self.registerRoute()
+
 
 o1: GenerateScripts = GenerateScripts(
-    "Pote",
+    "Note",
     [
         ("name", STRING),
         ("age", INTEGER),
@@ -200,9 +208,4 @@ o1: GenerateScripts = GenerateScripts(
     ],
 )
 
-o1.createInterface()
-o1.createModel()
-o1.registerModel()
-o1.createService()
-o1.createRoute()
-o1.registerRoute()
+o1.runAllScripts()

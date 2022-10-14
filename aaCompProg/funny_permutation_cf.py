@@ -1,3 +1,5 @@
+url = 'https://codeforces.com/contest/1741'
+
 for _ in range(int(input())):
     n = int(input())
 
