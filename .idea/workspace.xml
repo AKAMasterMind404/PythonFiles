@@ -8,12 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/aaCompProg/Even_Odd_Increments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DP_makes_a_difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP_makes_a_difference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough3.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aaCompProg/funny_permutation_cf.py" beforeDir="false" afterPath="$PROJECT_DIR$/aaCompProg/funny_permutation_cf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestProblems/Password.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
