@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ContestProblems/Password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestProblems/Increasing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ContestProblems/Sum.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
