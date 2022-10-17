@@ -1,6 +1,13 @@
+def f(n):
+    if n == 1:
+        return 1
+    if n == 2:
+        return 6
+    else:
+        return (6 * (n - 1)) + f(n - 1)
+
+
 for _ in range(int(input())):
-    n = int(input())
-    _ = input()
-    arr = list(map(int, input().split()))
-    arr.sort()
-    print(sum(arr[_.count('0')::]))
+    n = 10 - int(input())
+    input()
+    print(f(n))
