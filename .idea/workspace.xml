@@ -8,46 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/aaCompProg/Even_Odd_Increments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers/TYPESCRIPT_MODEL_ROUTE_SERVICE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/TYPESCRIPT_MODEL_ROUTE_SERVICE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP_makes_a_difference.py" beforeDir="false" afterPath="$PROJECT_DIR$/DP_makes_a_difference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough3.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/atharv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/aaCompProg/funny_permutation_cf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/atharv/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/atharv/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/atharv/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/atharv/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/atharv/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/aaCompProg/tshirt_sizes_cf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/migrations/0002_alter_usermodelcustom_age_alter_usermodelcustom_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/products_apis/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/homeapp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/allUsersList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/create_user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/deletedUserPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/getSingleUser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/page1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/page2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/page3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/pages/page4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv/productsPages/details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv_upload/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv_upload/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv_upload/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv_upload/static/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv_upload/static/uploads/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/atharv_upload/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cp_templates/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/aa_cp_templates/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaCompProg/funny_permutation_cf.py" beforeDir="false" afterPath="$PROJECT_DIR$/aaCompProg/funny_permutation_cf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,6 +198,27 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.aRough2">
+    <configuration name="DP_makes_a_difference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP_makes_a_difference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TYPESCRIPT_MODEL_ROUTE_SERVICE" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -358,34 +345,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iterateOverAFile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterateOverAFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.aRough2" />
+        <item itemvalue="Python.DP_makes_a_difference" />
         <item itemvalue="Python.aRough3" />
         <item itemvalue="Python.TYPESCRIPT_MODEL_ROUTE_SERVICE" />
         <item itemvalue="Python.aRough4" />
-        <item itemvalue="Python.iterateOverAFile" />
       </list>
     </recent_temporary>
   </component>

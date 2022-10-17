@@ -33,9 +33,9 @@ hashtable = {0: 0, 1: 1, 2: 1, 3: 2}
 
 if __name__ == '__main__':
     t1 = time.time()
-    fibonacci(999)
+    fibonacci(38)
     print(time.time() - t1)
 
     t1 = time.time()
-    dp_Fibonacci(999)
+    dp_Fibonacci(38)
     print(time.time() - t1)
