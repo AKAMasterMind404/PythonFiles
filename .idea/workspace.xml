@@ -8,11 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/aLightBill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContestProblems/Increasing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ContestProblems/Increasing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough3.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ab.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kmean_clustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajavaCode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs1.in" beforeDir="false" afterPath="$PROJECT_DIR$/cs1.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicate.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/krishPractise.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
