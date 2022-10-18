@@ -1,39 +1,55 @@
-import expressLoader from './express';
-import dependencyInjectorLoader from './dependencyInjector';
-import mongooseLoader from './mongoose';
-import jobsLoader from './jobs';
-import Logger from './logger';
-
-export default async ({ expressApp }) => {
-  const mongoConnection = await mongooseLoader();
-  Logger.info('✌️ DB loaded and connected!');
-
-  const testModel = {
-    name: 'testModel',
-    model: require('../models/test').default,
-  };
-
-  const roomModel = {
-    name: 'roomModel',
-    model: require('../models/room').default,
-  };
-
-  const userModel = {
-    name: 'userModel',
-    model: require('../models/user').default,
-  };
-
-  const { logger } = await dependencyInjectorLoader({
-    mongoConnection,
-    models: [
-      testModel,
-      userModel,
-      roomModel
-    ],
-  });
-  Logger.info('✌️ Dependency Injector loaded');
-
-
-  await expressLoader({ app: expressApp });
-  Logger.info('✌️ Express loaded');
-};
+    #include <bits/stdc++.h>
+#include <math.h>
+ 
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+# define M_PI  3.14159265358979323846
+    
+    long long M=998244353;
+    long long mod(long long x){
+        return ((x%M + M)%M);
+    }
+    long long add(long long a, long long b){
+        return mod(mod(a)+mod(b));
+    }
+    long long mul(long long a, long long b){
+        return mod(mod(a)*mod(b));
+    }
+    
+    void solve (){
+        int n;
+        cin>>n;
+        char ch;
+        cin>>ch;
+        string s;
+        cin>>s;
+        s+=s;
+        int maxi=0,cnt=0;
+        for(int i=0;i<s.size();i++){
+            if(s[i]==ch){
+                cnt=0;
+                while(s[i]!='g' && i<s.size()){
+                    cnt++;
+                    i++;
+                }
+                if(cnt>maxi) maxi = cnt;
+            }
+        }
+        cout<<maxi<<"\n";
+        
+    }
+    int main(){
+        ios::sync_with_stdio(0);
+        cin.tie(0);
+        cout.tie(0);
+        cout<<fixed;
+        cout<<setprecision(10);
+        int t=1;
+        cin>>t;
+        for(int i=1;i<=t;i++){
+            // cout<<"Case #"<<i<<": ";
+            solve();
+        }
+        return 0;
+    }

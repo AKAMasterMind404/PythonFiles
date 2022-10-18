@@ -1,38 +1,18 @@
-for _ in range(int(input())):
-    n, q = map(int, input().split())
-    arr = list(map(int, input().split()))
-    num_odd_nums = 0
-    num_even_nums = 0
+def calcNum2sInArr(arr):
+    n_2s = 0
+    d = list()
 
-    sum_odd = 0
-    sum_even = 0
+    for i in arr:
+        num = 0
+        while i % 2 == 0 and i > 0:
+            num += 1
+            i = i / 2
+        n_2s += num
+        d.append(num)
 
-    for num in arr:
-        if num % 2 == 0:
-            num_even_nums += 1
-            sum_even += num
-        else:
-            num_odd_nums += 1
-            sum_odd += num
+    return n_2s, d
 
-    for __ in range(q):
-        i, j = map(int, input().split())
 
-        if i == 0:
-            if j % 2 == 0:
-                sum_even += j * num_even_nums
-            else:
-                sum_odd += sum_even + (j * num_even_nums)
-                sum_even = 0
-                num_odd_nums += num_even_nums
-                num_even_nums = 0
-        elif i == 1:
-            if j % 2 == 0:
-                sum_odd += j * num_odd_nums
-            else:
-                sum_even += sum_odd + (j * num_odd_nums)
-                sum_odd = 0
-                num_even_nums += num_odd_nums
-                num_odd_nums = 0
-
-        print(sum_even + sum_odd)
+a = calcNum2sInArr([20, 7, 14, 18, 3, 5])
+print([20, 7, 14, 18, 3, 5])
+print(a[1])
