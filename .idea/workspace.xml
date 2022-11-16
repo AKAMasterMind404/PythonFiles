@@ -8,14 +8,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ContestProblems/template_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aditya Verma/FirstNegativeNumberInWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aHelp/1.bracketCheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aHelp/2.vowelOdd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aHelp/3.digitSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aHelp/4.combineArrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aHelp/5.isSubArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/ChessAI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/ChessEngine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/ChessMain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/bB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/bK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/bN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/bQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/bR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/bp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/wB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/wK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/wN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/wQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/wR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/images/wp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chess-engine/chess/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aLightBill" beforeDir="false" afterPath="$PROJECT_DIR$/aLightBill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aRough3.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough4.py" beforeDir="false" afterPath="$PROJECT_DIR$/ContestProblems/ImmobileKnight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aRough5.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,18 +199,18 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repositories\BattleGame_RPG" />
       <recent name="E:\Repositories\BattleGame_RPG" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\Helpers" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\GRE_quiz_automation" />
-      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\webscraping" />
@@ -199,8 +220,8 @@
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\atharv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.aRough3">
-    <configuration name="DP_makes_a_difference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1.bracketCheck">
+    <configuration name="1.bracketCheck" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aHelp" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DP_makes_a_difference.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aHelp/1.bracketCheck.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Increasing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2.vowelOdd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,11 +250,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ContestProblems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aHelp" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ContestProblems/Increasing.py" />
+      <option name="SCRIPT_NAME" value="D:\Repositories\BattleGame_RPG\aHelp\2.vowelOdd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.digitSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aHelp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Repositories\BattleGame_RPG\aHelp\3.digitSum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4.combineArrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aHelp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Repositories\BattleGame_RPG\aHelp\4.combineArrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5.isSubArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aHelp" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Repositories\BattleGame_RPG\aHelp\5.isSubArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,69 +339,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aRough2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aRough3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chainreaction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chainreaction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,11 +370,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.aRough3" />
-        <item itemvalue="Python.aRough2" />
-        <item itemvalue="Python.chainreaction" />
-        <item itemvalue="Python.Increasing" />
-        <item itemvalue="Python.DP_makes_a_difference" />
+        <item itemvalue="Python.1.bracketCheck" />
+        <item itemvalue="Python.5.isSubArray" />
+        <item itemvalue="Python.4.combineArrays" />
+        <item itemvalue="Python.3.digitSum" />
+        <item itemvalue="Python.2.vowelOdd" />
       </list>
     </recent_temporary>
   </component>
@@ -437,6 +458,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Computer-Vision-OpenCV-Projects" />
+      <path value="$PROJECT_DIR$/Eye-Blink-Detector" />
+      <path value="$PROJECT_DIR$/Eye-blink-detection-game" />
+      <path value="$PROJECT_DIR$/face-recognition-demo" />
+      <path value="$PROJECT_DIR$/flasker" />
+      <path value="$PROJECT_DIR$/mental_health_SIH/Abnormal-Behaviour-Detection" />
+    </ignored-roots>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
