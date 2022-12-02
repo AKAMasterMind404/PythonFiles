@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AKAMasterMind404/PythonFiles/issues"
   },
-  "homepage": "https://github.com/AKAMasterMind404/PythonFiles#readme"
+  "homepage": "https://github.com/AKAMasterMind404/PythonFiles#readme",
+  "dependencies": {
+    "pandoc": "^0.2.0"
+  }
 }
