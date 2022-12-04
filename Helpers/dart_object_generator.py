@@ -40,7 +40,7 @@ class ModelGenerator:
         file.write(f'''  static {self.name} fromJson(Map<String, Object?> json) => {self.name}(\n''')
         for i, j in self.params:
             type = self._getDataType(j)
-            file.write(f'''        {i}: json[{self.name}Fields.local_id] as {type},\n''')
+            file.write(f'''        {i}: json[{self.name}Fields.{i}] as {type},\n''')
         file.write('''      );\n\n''')
 
     def _writeToJSON(self, file):
@@ -105,16 +105,16 @@ class ModelGenerator:
 
 
 o1: ModelGenerator = ModelGenerator(
-    "Note",
+    "Incidence",
     [
-        ("name", STRING),
-        ("age", INTEGER),
-        ("isAdult", BOOLEAN),
-        ("score", FLOAT),
-        ("listIds", LIST),
-        ("some1", DATETIME),
-        ("some2", DATETIME),
-    ],
+        ('type', STRING),
+        ('area', STRING),
+        ('location', STRING),
+        ('actionTaken', STRING),
+        ('occurredAt', DATETIME),
+        ('notedAt', DATETIME),
+        ('photos', LIST),
+    ]
 )
 
 o1.generateFieldsCode()
