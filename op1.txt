@@ -1,7 +1,0 @@
-Alive
-Dead
-Alive
-Dead
-Dead
-Dead
-Alive

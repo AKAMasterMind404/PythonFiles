@@ -8,7 +8,340 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.google-cookie" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190802003_RSA_Algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/333.matchmaker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aditya Verma/FirstNegativeNumberInWindow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Assignment/cfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Assignment/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainReactionGUI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codechef_tutorials.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ENCRYPTION_FERNET.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ES.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EUREKA_Recursion_Check_If_Array_is_Sorted.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/FCC_Django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/tst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/FCC_Django/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/FCC_Django/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/FCC_Django/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/FCC_Django/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/home/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FCC_Django/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FL_insurance_sample.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/1_reverse_the_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/2_Find_the_maximum_and_minimum_element _In_an_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/3_Find_the_Kth_max_and_min_element_of_an_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/4_Given_an_array_which_consists_of_only_0_1_and_2_Sort_the_array_without_using_any_sorting_algo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/5_Move_all_the_negative_elements_to_one_side_of_the_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/6_Find_the_Union_and_Intersection_of_the_two_sorted_arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/7_Write_a_program_to_cyclically_rotate_an_array_by_one.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_450_DSA/8_find_Largest_sum_contiguous_Subarray_[V._IMP].py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/Incidence.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/Incidence.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/IncidenceFields.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/IncidenceFields.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/countBattleships.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/count_sub_islands.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/flood_fill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/isTheSameTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/islandPerimeter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/kth_smallest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/largestValueInARow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/maxDepth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/number_of_islands_dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/recover_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/remove_k_numbers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/symmetric_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interesting_Problems/validate_binary_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iris.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kickstart2021/Round_A/q1_goodness.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB_2_Sem_3_DAA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB_3_Part1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB_3_Part2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB_7_Djikstras.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB_7_Kruskals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB_7_Prims.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 1 DS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linked Lists.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListNew.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/10_Integer_to_Roman.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/11_Coin_Change.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/12_Check_If_String_Contains_Bin_Codes_k_size.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/14_Swap_Nodes_LinkedList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/15_Encode_Decode_URL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/16_Best_Time_To_Buy_And_Sell_Stocks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/17_Generate_Random_Point_In_Circle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/18_Wiggle_Subsequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/19_Keys_and_Rooms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/1_Distribute_Candies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/20_Design_Underground_System.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/21_Reordered_Power_of_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/22_Vowel_Spellchecker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/23_3_Sum_Multiplicity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/24_Advanced_Shuffle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/25_Pacific_Atlantic_Water_Flow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/26_Word_subsets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/27_Pallindromic_Susbtrings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/28_Reconstruct_Original_digits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/29_Flip_Binary_Tree_To_Match.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/2_Set_Mismatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/30_Russian_Doll_Envelope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/31_Stamping_Sequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/3_Missing_Number.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/4_Intersection_Linked_List.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/5_Average_levels_in_Binary_Tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/6_Short_encoding_of_words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/7_Design_Hashmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/8_Remove_Pallindromic_Subsequence.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/9_Add_one_row_to_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/No_time_left.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/Reconstruct_original_digits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/group_of_friends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/interesting_xor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarchDailyChallenge/underground_system.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSO.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/SQL_STATEMENT_AUTOMATION/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/SQL_STATEMENT_AUTOMATION/function_Getter_fill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/SQL_STATEMENT_AUTOMATION/query_generation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/bonding_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/group_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/main_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Periodic_table/standard_state.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pizza.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PopQuizWinner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/April_Long_Challenge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Array Manipulation hackerrank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Athlete_Sort_Lambda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Bank Transaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/COUNT_TRIPLETS_IMPORTANT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Coronavirus chan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/CountApplesAndOranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Credit_Card_Validator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Deranged_IP.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/DesignerPDF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/DoubleStepLadder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/EachNumberBW1k_3kIsEven.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Frequency of words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/GroupBy_Medium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/ListOfRivers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/OccuranceOfN!.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/OrderedDict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/PaginationHelper_CODEWARS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Password Validator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/PoisonousPlantsHard_HACKERRANK.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/RANGOLI_PRINTER.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/ShopOwnerProfit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Simple_Text_Editor_Hackerrank_MEDIUM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/Superpallindrome.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/aNotInb_DefaultDict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/a_Adding_a_row_in_binary_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/a_Last_Digit_Power_CODWARS_LIT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/algebra_through_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/compamy_logo_MEDIUM.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/firstWORDSENTENCEcapital.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/highest range in an array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/indiceOccuranceProbability.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/kangarooJump.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/listComprehensions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/merge_the_tools__MEDIUM_LEVEL.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/minimumSwaps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/namedTuple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/north_south_east_west.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/number_spiral_cses.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/printDoormat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PractiseQuestionsWeb/wordOrder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Premium Collection Data_2_Revised_updated.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Query1&amp;@.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/LAMBDA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/concatenate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/depthSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/factorialRecursion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/power_a_to_b_recursive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/recursive_Fibbonacci.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/sumOfListRecursive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/sum_of_digits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SYSTEM_SECURITY/binary_input_one_time_pad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SYSTEM_SECURITY/one_time_pad_encryption.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket_Programming/client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Socket_Programming/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/Efficient.py" beforeDir="false" afterPath="$PROJECT_DIR$/AtharvsSort/Efficient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/SortingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/AtharvsSort/SortingData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortingAlgorithm/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/AtharvsSort/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackPopPush.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stacks and Queues.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StockMarketAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/ES/StockMarketAPI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/T1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Titanic_Dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tower_Of_Hanoi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wine.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aA_HackerRankQuestionsOctober18" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aHelp/1.bracketCheck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aHelp/2.vowelOdd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aHelp/3.digitSum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aHelp/4.combineArrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aHelp/5.isSubArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aHelp/6.Sourabh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aHelp/7.Sourabh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aRough1.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aUseOfDefaultdict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_Find_Roots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_Simulation_Lab.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_s_input1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa_cp_templates/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaaImportant_Permutations_and_Combinations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml- update -1/aimlmodel.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml- update -1/draw.joblib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml- update -1/model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml- update -1/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml- update -1/model_shapes.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml- update -1/model_shapes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml- update -1/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/atharv_upload.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audioPlaying.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/b1.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch_3_new.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bayesian filtering.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmarks_7_19_22.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/ChessAI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/ChessEngine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/ChessMain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/bB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/bK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/bN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/bQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/bR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/bp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/wB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/wK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/wN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/wQ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/wR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/images/wp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-engine/chess/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/copyFromCSV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs1.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decimalTObinary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/django_FCC.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/firstDjangoProject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/home/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/static/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/firstDjangoProject/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_3_5_22/notes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dnn8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsa_final.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileOperations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalrankings.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get-pip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hapinessmeter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashingChaining.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip1.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip1_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kickStarttemplate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/l4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4ansh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leftrotation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nimbuPaaniRecursive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/numbers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/op1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/op1_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pratikprinter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pseudocode_meetapp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queues.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recursiveSearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_2_.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_2_new.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rishilsGift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rough.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scratch_14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shape_predictor_68_face_landmarks.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleFibbonacci.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket_programming1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket_programming2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/styles/draw.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stop_words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/substringApp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system_software_lab_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system_software_lab_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/final_result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/predict.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/shapes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/themes/assets/css/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/themes/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/themes/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/themes/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/themes/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/themes/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/themes/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ybg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_file1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thetext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/underscores.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/useOfFormat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vedants_brothers_answers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voice.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordCounter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writingUsingPythonOnPy.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,14 +520,14 @@
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\Helpers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repositories\BattleGame_RPG\ES" />
+      <recent name="D:\Repositories\BattleGame_RPG\PractiseQuestionsWeb" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\webscraping" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\Helpers\typescript" />
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\pages" />
-      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv" />
-      <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\atharv\atharv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dart_object_generator">
+  <component name="RunManager" selected="Python.StockMarketAPI">
     <configuration name="Lab_07_random_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,7 +549,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab_07_random_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="StockMarketAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,11 +557,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Jupyter Notebooks/TC7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Repositories\BattleGame_RPG\Jupyter Notebooks\TC7\Lab_07_random_number.py" />
+      <option name="SCRIPT_NAME" value="D:\Repositories\BattleGame_RPG\ES\StockMarketAPI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,27 +591,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="aRough2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="BattleGame_RPG" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="dart_object_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,6 +604,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Helpers/dart_object_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/artgen" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/artgen/generate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,28 +675,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="convert_to_ipynb.sh" type="ShConfigurationType" temporary="true">
-      <option name="SCRIPT_TEXT" value="" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/convert_to_ipynb.sh" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="" />
+    <configuration name="yahooFinancialsScraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="true" />
-      <envs />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ES" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ES/yahooFinancialsScraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.StockMarketAPI" />
+        <item itemvalue="Python.yahooFinancialsScraper" />
+        <item itemvalue="Python.generate" />
         <item itemvalue="Python.dart_object_generator" />
         <item itemvalue="Python.mask_rcnn" />
-        <item itemvalue="Python.aRough2" />
-        <item itemvalue="Python.Lab_07_random_number" />
-        <item itemvalue="Python.Lab_07_random_number" />
       </list>
     </recent_temporary>
   </component>
