@@ -1,23 +1,10 @@
-def bd(n):
-    ans = 0
-    pw = 1
-    while n > 0:
-        rem = n % 10
-        n = n // 10
-        ans += rem * pw
-        pw = pw * 2
+n = int(input())
 
-    return ans
+sp = "  "
+for i in range(n - 1):
+    print((sp * i) + str(i + 1) + sp * (n - i - 1) * 2 + str(i + 1) + (sp * i))
 
+print(sp*(n-1) + " " + str(n))
 
-def d(s):
-    s1 = ''
-    for i in s:
-        if i in ['a', 'e', 'i', 'o', 'u']:
-            s1 += '0'
-        else:
-            s1 += '1'
-    return bd(int(s1))
-
-
-print(d(input()))
+for i in range(n - 2, -1, -1):
+    print((sp * i) + str(i + 1) + sp * (n - i - 1) * 2 + str(i + 1) + (sp * i))
