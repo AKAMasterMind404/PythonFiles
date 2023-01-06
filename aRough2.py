@@ -9,3 +9,4 @@ for i in t:
         b += '1'
 
 print(int(b, 2))
+print("abcDef".title())

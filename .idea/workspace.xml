@@ -7,7 +7,10 @@
     <bookmark url="file://$PROJECT_DIR$/pseudocode_meetapp.py" line="19" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="" />
+    <list default="true" id="b8475b87-67e3-4699-9c93-43a38160fc09" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Helpers/TYPESCRIPT_MODEL_ROUTE_SERVICE.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers/TYPESCRIPT_MODEL_ROUTE_SERVICE.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aRough2.py" beforeDir="false" afterPath="$PROJECT_DIR$/aRough2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +195,7 @@
       <recent name="C:\Users\Admin\PycharmProjects\BattleGame_RPG\Helpers\typescript" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.aRough1">
+  <component name="RunManager" selected="Python.aRough2">
     <configuration name="OS_HELP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="aRough2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BattleGame_RPG" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,11 +267,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/artgen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/artgen/generate.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aRough2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aRough2" />
         <item itemvalue="Python.replace_converted" />
         <item itemvalue="Python.OS_HELP" />
         <item itemvalue="Python.StockMarketAPI" />
         <item itemvalue="Python.yahooFinancialsScraper" />
-        <item itemvalue="Python.generate" />
       </list>
     </recent_temporary>
   </component>

@@ -112,12 +112,12 @@ class GenerateScripts:
         with open(os.path.join(path, route_file), 'w') as f:
             f.write("import { Router, Request, Response, NextFunction } from 'express';\n")
             f.write("import { Container } from 'typedi';\n")
-            f.write(f"import {self.name}Service from '../../services/{self.name.lower()}';\n")
+            f.write(f"import {self.name.title()}Service from '../../services/{self.name.lower()}';\n")
             f.write("import middlewares from '../middlewares';\n\n")
             f.write("const route = Router();\n\n")
             f.write("export default (app: Router) => {\n")
             f.write(f"  app.use('/{self.name.lower()}', route);\n")
-            f.write(f"  const {self.name.lower()}Service = Container.get({self.name}Service)\n\n")
+            f.write(f"  const {self.name.lower()}Service = Container.get({self.name.title()}Service)\n\n")
 
             for req in ["post", "get", "put", "delete"]:
                 f.write(f"  route.{req}('/', "
