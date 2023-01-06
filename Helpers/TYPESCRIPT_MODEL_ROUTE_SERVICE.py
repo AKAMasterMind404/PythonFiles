@@ -13,48 +13,8 @@ class GenerateScripts:
         self.name = name
         self.params = params
 
-    def _copyContentsInAList(self, path: str):
-        lines = []
-        with open(path, encoding="utf8", errors="surrogateescape") as f:
-            [lines.append(i) for i in f if len(i.strip())]
-        return lines
-
-    def _getDataType(self, data_type: str, isInterface: bool):
-        _map = {
-            BOOLEAN: "boolean" if isInterface else "Boolean",
-            FLOAT: "number" if isInterface else "Number",
-            INTEGER: "number" if isInterface else "Number",
-            STRING: "string" if isInterface else "String",
-            LIST: "Array<any>" if isInterface else "Array",
-            DICT: "any" if isInterface else "Map",
-        }
-
-        return _map[data_type]
-
-    def _getDirectoryPath(self, place: str):
-        s = "\src"
-        _map = {
-            "home": "",
-            "models": f"{s}\\models",
-            "interfaces": f"{s}\\interfaces",
-            "services": f"{s}\\services",
-            "utils": f"{s}\\utils",
-            "routes": f"{s}\\api\\routes",
-            "middlewares": f"{s}\\api\\middlewares",
-            "config": f"{s}\\config",
-            "loaders": f"{s}\\loaders",
-            "types": f"{s}\\types\\express",
-            "loader-index": f"{s}\\loaders\\index.ts",
-            "express-index": f"{s}\\types\\express\\index.d.ts",
-            "route-index": f"{s}\\api\\index.ts",
-        }
-        suffix = _map.get(place)
-        assert bool(suffix), "Please request for a valid directory"
-
-        return os.path.join(os.path.dirname(__file__) + suffix)
-
     def createInterface(self):
-        path = self._getDirectoryPath("interfaces")
+        path = self.__getDirectoryPath("interfaces")
         interface_file = f"I{self.name}.ts"
 
         with open(os.path.join(path, interface_file), 'w') as f:
@@ -62,13 +22,13 @@ class GenerateScripts:
             f.write("  _id: string;\n")
 
             for param, _type in self.params:
-                prop_type = self._getDataType(_type, isInterface=True)
+                prop_type = self.__getDataType(_type, isInterface=True)
                 f.write(f"  {param}:{prop_type};\n")
 
             f.write('}\n')
 
     def createModel(self):
-        path = self._getDirectoryPath("models")
+        path = self.__getDirectoryPath("models")
         file = f"{self.name.lower()}.ts"
 
         with open(os.path.join(path, file), 'w') as f:
@@ -78,7 +38,7 @@ class GenerateScripts:
             f.write(f"const model = new mongoose.Schema(\n")
             f.write("{\n")
             for param, _type in self.params:
-                prop_type = self._getDataType(_type, isInterface=False)
+                prop_type = self.__getDataType(_type, isInterface=False)
                 f.write(f"    {param}: " + "{\n")
                 f.write(f"      type: {prop_type},\n")
                 f.write("    },\n")
@@ -87,8 +47,8 @@ class GenerateScripts:
                 f"export default mongoose.model<I{self.name} & mongoose.Document>('{self.name.lower()}Model', model);\n")
 
     def registerModel(self):
-        loaders_index = self._getDirectoryPath("loader-index")
-        loaders_lines = self._copyContentsInAList(loaders_index)
+        loaders_index = self.__getDirectoryPath("loader-index")
+        loaders_lines = self.__copyContentsInAList(loaders_index)
 
         # REGISTERING MODEL INSIDE loaders/index.ts
         with open(loaders_index, "w+", encoding="utf8", errors="surrogateescape") as _:
@@ -107,8 +67,8 @@ class GenerateScripts:
                     _.write(line)
 
         # REGISTERING MODEL INSIDE loaders/types/express/index.ts
-        loaders_express = self._getDirectoryPath("express-index")
-        loaders_lines = self._copyContentsInAList(loaders_express)
+        loaders_express = self.__getDirectoryPath("express-index")
+        loaders_lines = self.__copyContentsInAList(loaders_express)
 
         with open(loaders_express, "w+", encoding="utf8", errors="surrogateescape") as _:
             import_line = f"import " + "{ " + f"I{self.name}" + "}" + f" from '../../interfaces/I{self.name}';\n"
@@ -125,7 +85,7 @@ class GenerateScripts:
                     _.write(line)
 
     def createService(self):
-        path = self._getDirectoryPath("services")
+        path = self.__getDirectoryPath("services")
         service_file = f"{self.name.lower()}.ts"
 
         with open(os.path.join(path, service_file), 'w') as f:
@@ -146,7 +106,7 @@ class GenerateScripts:
             f.write("}\n\n")
 
     def createRoute(self):
-        path = self._getDirectoryPath("routes")
+        path = self.__getDirectoryPath("routes")
         route_file = f"{self.name.lower()}.ts"
 
         with open(os.path.join(path, route_file), 'w') as f:
@@ -172,8 +132,8 @@ class GenerateScripts:
             f.write("}")
 
     def registerRoute(self):
-        index_file = self._getDirectoryPath("route-index")
-        loaders_lines = self._copyContentsInAList(index_file)
+        index_file = self.__getDirectoryPath("route-index")
+        loaders_lines = self.__copyContentsInAList(index_file)
         import_line = f"import {self.name.lower()} from './routes/{self.name.lower()}';\n"
 
         with open(index_file, "w", encoding="utf8", errors="surrogateescape") as _:
@@ -194,6 +154,49 @@ class GenerateScripts:
         self.createService()
         self.createRoute()
         self.registerRoute()
+
+    @staticmethod
+    def __copyContentsInAList(path: str):
+        lines = []
+        with open(path, encoding="utf8", errors="surrogateescape") as f:
+            [lines.append(i) for i in f if len(i.strip())]
+        return lines
+
+    @staticmethod
+    def __getDataType(data_type: str, isInterface: bool):
+        _map = {
+            BOOLEAN: "boolean" if isInterface else "Boolean",
+            FLOAT: "number" if isInterface else "Number",
+            INTEGER: "number" if isInterface else "Number",
+            STRING: "string" if isInterface else "String",
+            LIST: "Array<any>" if isInterface else "Array",
+            DICT: "any" if isInterface else "Map",
+        }
+
+        return _map[data_type]
+
+    @staticmethod
+    def __getDirectoryPath(place: str):
+        s = "\src"
+        _map = {
+            "home": "",
+            "models": f"{s}\\models",
+            "interfaces": f"{s}\\interfaces",
+            "services": f"{s}\\services",
+            "utils": f"{s}\\utils",
+            "routes": f"{s}\\api\\routes",
+            "middlewares": f"{s}\\api\\middlewares",
+            "config": f"{s}\\config",
+            "loaders": f"{s}\\loaders",
+            "types": f"{s}\\types\\express",
+            "loader-index": f"{s}\\loaders\\index.ts",
+            "express-index": f"{s}\\types\\express\\index.d.ts",
+            "route-index": f"{s}\\api\\index.ts",
+        }
+        suffix = _map.get(place)
+        assert bool(suffix), "Please request for a valid directory"
+
+        return os.path.join(os.path.dirname(__file__) + suffix)
 
 
 o1: GenerateScripts = GenerateScripts(
