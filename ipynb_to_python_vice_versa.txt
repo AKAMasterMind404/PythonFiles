@@ -1,0 +1,23 @@
+# CONVERT IPYNB TO PY
+
+URL: https://stackoverflow.com/a/66565946
+
+STEP 1:
+Install this package:
+
+    pip install ipynb-py-convert
+
+STEP 2:
+Bring the .ipynb file to the cwd.
+
+STEP 3:
+Let the .ipynb file be named f1.ipynb.
+To convert this to f1.py, run:
+
+    ipynb-py-convert f1.ipynb f1.py
+
+# CONVERT PY TO IPYNB
+Follow steps 1 and 2 from previous
+Run the following command:
+
+    ipynb-py-convert f1.py f1.ipynb

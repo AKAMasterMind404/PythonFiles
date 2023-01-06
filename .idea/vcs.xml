@@ -2,11 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Computer-Vision-OpenCV-Projects" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Eye-Blink-Detector" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Eye-blink-detection-game" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/face-recognition-demo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/flasker" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mental_health_SIH/Abnormal-Behaviour-Detection" vcs="Git" />
   </component>
 </project>

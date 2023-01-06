@@ -1,19 +1,11 @@
-def solve(nums):
-    s_n = 0
-    s_p = 0
+t = input()
+r = 'aeiou'
+b = ''
 
-    for i in nums:
-        if i < 0:
-            s_n += abs(i)
-        else:
-            s_p += abs(i)
+for i in t:
+    if i.lower() in r:
+        b += '0'
+    else:
+        b += '1'
 
-    return abs(s_p - s_n)
-
-
-for _ in range(int(input())):
-    # for _ in range(1):
-    input()
-    nums = list(map(int, input().split()))
-    ans = solve(nums)
-    print(ans)
+print(int(b, 2))

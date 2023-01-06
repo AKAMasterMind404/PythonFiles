@@ -1,11 +1,10 @@
-for i, j in [
-    # ('a', 'a'),
-    ('a', 'b'),
-    ('a', 'c'),
-    ('a', 'z'),
-    ('a', 'y'),
-]:
-    c1val = ord(i) - 96
-    c2val = ord(j) - 96
+n = int(input())
 
-    print(26%abs(c1val - c2val))
+sp = "  "
+for i in range(n - 1):
+    print((sp * i) + str(i + 1) + sp * (n - i - 1) * 2 + str(i + 1) + (sp * i))
+
+print(sp*(n-1) + " " + str(n))
+
+for i in range(n - 2, -1, -1):
+    print((sp * i) + str(i + 1) + sp * (n - i - 1) * 2 + str(i + 1) + (sp * i))
